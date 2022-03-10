@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-//import { urlFor, client } from "../../client";
+import { AppWrap } from "../../wrapper";
 
 import { images } from "../../constants";
 
@@ -18,12 +18,12 @@ const abouts = [
     imgUrl: images.about02,
   },
   {
-    title: "Backend",
+    title: "Backend Development",
     description: "I have built e-commerce APIs with Python and Django",
     imgUrl: images.about03,
   },
   {
-    title: "Frontend",
+    title: "Frontend Development",
     description: "I have built websites and web apps with React and Next.js",
     imgUrl: images.about04,
   },
@@ -33,10 +33,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that
-        <span>Good Design</span>
-        means
-        <span>Good Business</span>
+        I know that <span>Good Development </span> means{" "}
+        <span>Faster websites</span>
       </h2>
 
       <div className="app__profiles">
@@ -62,4 +60,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
