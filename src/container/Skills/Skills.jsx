@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ReactTooltip from "react-tooltip";
 
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 //import { urlFor, client } from "../../client";
 import "./Skills.scss";
 import { images } from "../../constants";
@@ -11,22 +11,22 @@ const myskill = [
   {
     name: "React",
     icon: images.react,
-    bgColor: "",
+    bgColor: "#edf2f8",
   },
   {
     name: "Javascript",
     icon: images.javascript,
-    bgColor: "",
+    bgColor: "#edf2f8",
   },
   {
     name: "Git",
     icon: images.git,
-    bgColor: "",
+    bgColor: "#edf2f8",
   },
   {
     name: "Python",
     icon: images.python,
-    bgColor: "",
+    bgColor: "#edf2f8",
   },
 ];
 
@@ -137,9 +137,10 @@ const Skills = () => {
   );
 };
 
-/* export default AppWrap(
+//export default AppWrap(Skills, "skills");
+
+export default AppWrap(
   MotionWrap(Skills, "app__skills"),
   "skills",
   "app__whitebg"
-); */
-export default AppWrap(Skills, "skills");
+);
