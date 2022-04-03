@@ -10,22 +10,22 @@ const abouts = [
   {
     title: "Web Development",
     description: "I have 2 years of software development experience",
-    imgUrl: images.about01,
+    imgUrl: images.about05,
   },
   {
     title: "Machine Learning",
     description: "I have built Machine Learning models for text classification",
-    imgUrl: images.about02,
+    imgUrl: images.about06,
   },
   {
     title: "Backend Development",
     description: "I have built e-commerce APIs with Python and Django",
-    imgUrl: images.about03,
+    imgUrl: images.about07,
   },
   {
     title: "Frontend Development",
     description: "I have built websites and web apps with React and Next.js",
-    imgUrl: images.about04,
+    imgUrl: images.about08,
   },
 ];
 
