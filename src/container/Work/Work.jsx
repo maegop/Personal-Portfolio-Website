@@ -10,7 +10,7 @@ const works = [
   {
     title: "Ecommerce Website",
     description: "Modern website built with React JS",
-    imgUrl: images.about01,
+    imgUrl: images.about05,
     projectLink: "github.com",
     codeLink: "github.com",
     tags: ["Web App", "All"],
@@ -18,7 +18,7 @@ const works = [
   {
     title: "Criptocurrencies Website",
     description: "Modern website built with React JS",
-    imgUrl: images.about02,
+    imgUrl: images.about06,
     projectLink: "github.com",
     codeLink: "github.com",
     tags: ["React App", "All"],
@@ -26,7 +26,7 @@ const works = [
   {
     title: "Portfolio Website",
     description: "Modern website built with React JS",
-    imgUrl: images.about03,
+    imgUrl: images.about07,
     projectLink: "github.com",
     codeLink: "github.com",
     tags: ["Next JS", "All"],
