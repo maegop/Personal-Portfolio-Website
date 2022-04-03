@@ -1,4 +1,4 @@
-FROM node:14.19.1-alpine3.14
+FROM node:14.19.1-alpine3.15
 RUN addgroup app && adduser -S -G app app
 USER app
 WORKDIR /app
