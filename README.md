@@ -2,7 +2,15 @@
 
 ## What do you get in return:
 
+#### Hero desktop
+
 ![](./Personal-Brand-Web-Site.png)
+
+### Hero Responsive Design
+
+![](./Personal-Brand-Web-Site-Mobile.png)
+
+#### Complete website SPA
 
 <p><img align="center" src="./screenshot.gif" /></p>
 
